@@ -1,0 +1,13 @@
+{
+    "name": "fegffb/predigten",
+    "require": {
+        "zendframework/zend-diactoros": "^1.3.0",
+        "woohoolabs/harmony":"*",
+        "nikic/fast-route":"^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FeGFFB\\Predigten\\Controller\\": "controllers/"
+        }
+    }
+}
